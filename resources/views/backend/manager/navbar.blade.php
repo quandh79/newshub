@@ -2,7 +2,7 @@
   <div class="preloader flex-column justify-content-center align-items-center">
     {{-- <img class="animation__wobble" src="{{ url('public/backend') }}/dist/img/KCN.png" alt="AdminLTELogo" height="60" width="60"> --}}
     <video  autoplay muted plays-inline>
-      <source src="{{ url('public/backend') }}/dist/img/KCN.mp4">
+      <source src="{{ asset('backend/dist/img/logo.jpg') }}">
     </video>
   </div>
 
@@ -16,7 +16,7 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="{{ url('/') }}" class="nav-link">Trang chủ</a>
       </li>
-    
+
       <li class="nav-item d-none d-sm-inline-block">
         <a class="nav-link" href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
@@ -26,7 +26,7 @@
 
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                             @csrf
-                                        </form> 
+                                        </form>
       </li>
     </ul>
 
@@ -113,13 +113,13 @@
         </div>
       </li> --}}
       <!-- Notifications Dropdown Menu -->
-     
+
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li>
-      
+
     </ul>
   </nav>
   <!-- /.navbar -->

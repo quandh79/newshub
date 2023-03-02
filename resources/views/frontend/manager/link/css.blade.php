@@ -1,5 +1,5 @@
 <!-- ==== Favicons ==== -->
-<link rel="icon" href="favicon.png" type="{{ asset('frontend/img/KCN.png') }}">
+<link rel="icon" href="favicon.png" type="{{ asset('frontend/img/logo.jpg') }}">
 
 <!-- ==== Google Font ==== -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700">

@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-    <title>Kcnews - Tin tức mới</title>
+    <title>NewsHub - Tin tức mới</title>
 @endsection
 @section('main')
     <!-- Main Content Section Start -->
@@ -276,7 +276,7 @@
                                 <div class="post--items-title" data-ajax="tab">
                                     <h2 class="h4">Công nghệ</h2>
 
-                           
+
                                 </div>
                                 <!-- Post Items Title End -->
 
@@ -350,7 +350,7 @@
 
                                     </ul>
 
-                               
+
                                 </div>
                                 <!-- Post Items End -->
                             </div>
@@ -375,7 +375,7 @@
                                 <div class="post--items-title" data-ajax="tab">
                                     <h2 class="h4">Giáo dục</h2>
 
-                      
+
                                 </div>
                                 <!-- Post Items Title End -->
 
@@ -497,7 +497,7 @@
                                         </li>
                                     </ul>
 
-                                   
+
                                 </div>
                                 <!-- Post Items End -->
                             </div>
@@ -509,7 +509,7 @@
                                 <div class="post--items-title" data-ajax="tab">
                                     <h2 class="h4">Thể thao</h2>
 
-                                
+
                                 </div>
                                 <!-- Post Items Title End -->
 
@@ -583,7 +583,7 @@
                                             <!-- Post Item End -->
                                         </li>
                                         @endforeach
-                                        
+
                                         <li class="col-xs-12">
                                             <!-- Divider Start -->
                                             <hr class="divider">
@@ -621,7 +621,7 @@
                                         @endforeach
                                     </ul>
 
-                              
+
                                 </div>
                                 <!-- Post Items End -->
                             </div>
@@ -633,7 +633,7 @@
                                 <div class="post--items-title" data-ajax="tab">
                                     <h2 class="h4">Khoa học</h2>
 
-                          
+
                                 </div>
                                 <!-- Post Items Title End -->
 
@@ -724,7 +724,7 @@
                 <div class="post--items-title" data-ajax="tab">
                     <h2 class="h4">Audio &amp; Videos</h2>
 
-                
+
                 </div>
                 <!-- Post Items Title End -->
 
@@ -741,7 +741,7 @@
                                             alt=""></a>
                                     <a href="{{ url('properti/'.$video->tintucProperti->slug) }}" class="cat">{{ $video->tintucProperti->title }}</a>
                                     <a href="#" class="icon"><i class="fa fa-eye"></i></a>
-                                   
+
                                     <div class="post--info">
                                         <ul class="nav meta">
                                             @foreach ($user as $u)
@@ -803,7 +803,7 @@
                         </li>
                     </ul>
 
-                    
+
                 </div>
                 <!-- Post Items End -->
             </div>
@@ -828,7 +828,7 @@
                                 <div class="post--items-title" data-ajax="tab">
                                     <h2 class="h4">Đời sống</h2>
 
-                                  
+
                                 </div>
                                 <!-- Post Items Title End -->
 
@@ -899,7 +899,7 @@
                                         @endforeach
                                     </ul>
 
-                                   
+
                                 </div>
                                 <!-- Post Items End -->
                             </div>
@@ -911,14 +911,14 @@
                                 <div class="post--items-title" data-ajax="tab">
                                     <h2 class="h4">Pháp luật</h2>
 
-                                   
+
                                 </div>
                                 <!-- Post Items Title End -->
 
                                 <!-- Post Items Start -->
                                 <div class="post--items post--items-2" data-ajax-content="outer">
                                     <ul class="nav row gutter--15" data-ajax-content="inner">
-                                        @foreach($phap_luat as $phapluat) 
+                                        @foreach($phap_luat as $phapluat)
                                         <li class="col-xs-12">
                                             <!-- Post Item Start -->
                                             <div class="post--item post--layout-1">
@@ -1034,7 +1034,7 @@
                                 <div class="post--items-title" data-ajax="tab">
                                     <h2 class="h4">Giải trí</h2>
 
-                                  
+
                                 </div>
                                 <!-- Post Items Title End -->
 
@@ -1071,10 +1071,10 @@
                                             <!-- Post Item End -->
                                         </li>
                                         @endforeach
-                                        
+
                                     </ul>
 
-                         
+
                                 </div>
                                 <!-- Post Items End -->
                             </div>
@@ -1154,7 +1154,7 @@
                                             <!-- Post Item End -->
                                         </li>
                                        @endforeach
-                                       
+
                                     </ul>
 
                                 </div>

@@ -37,10 +37,10 @@ $tintucmoi = DB::table('tintucs')->where('trangthai',$duocduyet)->orderBy('creat
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                                      <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                                         @csrf
-                                                    </form> 
+                                                    </form>
                             </ul>
                         </li>
-                                    
+
                     @else
                         <li><a href="{{ route('login') }}"><i class="fa fm fa-user-o"></i>Đăng nhập/Đăng ký</a></li>
                     @endif
@@ -49,7 +49,7 @@ $tintucmoi = DB::table('tintucs')->where('trangthai',$duocduyet)->orderBy('creat
                 <!-- Header Topbar Action End -->
 
                 <!-- Header Topbar Language Start -->
-                
+
                 <!-- Header Topbar Language End -->
 
                 <!-- Header Topbar Social Start -->
@@ -73,10 +73,8 @@ $tintucmoi = DB::table('tintucs')->where('trangthai',$duocduyet)->orderBy('creat
             <div class="header--logo float--left float--sm-none text-sm-center" >
                 <h1 class="h1">
                     <a href="{{ url('/') }}" class="btn-link" >
-                        <video autoplay loop muted plays-inline width="60%">
-                            <source src="{{ asset('frontend/img/KCN (online-video-cutter.com).mp4') }}"   style="video/mp4" >
-                        </video>
-                        <span class="hidden">Kcnew - logo</span>
+                        <img src="{{ asset('frontend/img/logo.png') }}" style="width: 200px; ">
+                        <span class="hidden">NewsHub - logo</span>
                     </a>
                 </h1>
             </div>
@@ -161,7 +159,7 @@ $tintucmoi = DB::table('tintucs')->where('trangthai',$duocduyet)->orderBy('creat
                     <span>Tin tức mới nhất</span>
                 </a>
             </li>
-         
+
             <li>
                 <a href="{{ url('tinnong') }}">
                     <i class="fa fa-fire"></i>
